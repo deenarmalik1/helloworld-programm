@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Flexbox and Grid layout
+        </title>
+        <style>
+            body{
+                background-color: navy;
+            }
+            .flex-container{
+                display:flex;
+                justify-content: space-between;
+                margin: 20px;
+            }
+            .flex-left{
+                width:40%;
+                padding: 20px;
+                border:1px solid;
+                border-radius: 10px;
+                background-color: blueviolet;
+            }
+            .flex-right{
+                width:60%;
+                padding: 20px;
+                border: 1px solid;
+                border-radius: 10px;
+                background-color: brown;
+            }
+            .flex-right img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+            .grid-container{
+                display:grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                gap: 20px;
+                margin: 20px;
+            }
+            .grid-card{
+                position:relative;
+                padding: 20px;
+                border: 10px solid;
+                border-radius: 10px;
+                background-color: grey;
+            }
+            .grid-card img{
+                width: 100%;
+                height: 200px;
+                border-radius: 10px;
+            }
+            .badge{
+                position: absolute;
+                top: 10px;
+                background-color: blue;
+                padding: 5px 10px;
+                border-radius: 10px;
+                font-size: 25px;
+
+                
+
+
+                
+
+
+        </style>
+        
+        
+    </head>
+    <body>
+        <h1>Flexbox Layout</h1>
+        <div class="flex-container">
+            <div class="flex-left">
+                <h2>My Hobbies</h2>
+                <ul>
+                    <li>Reading</li>
+                    <li>Playing crickrt</li>
+                    <li>Coding</li>
+                    <li>Travelling</li>
+                    <li>Photography</li>
+                </ul>
+                </div>
+                <div class="flex-right">
+                    <h2>Short Bio</h2>
+                    <p>Sachin Tendulkar is my favourite cricketer</p>
+                    <img src="https://cdn.britannica.com/11/271611-050-6CAD4D54/Indian-Cricketer-Sachin-Tendulkar-Raises-Bat-On-Scoring-Century-During-Group-B-ICC-World-Cup-Cricket-Match-Between-India-And-South-Africa-Nagpur-March-12-2011.jpg" width="200" height="150">
+                </div>
+        </div>
+        <h1>Grid Layout</h1>
+        <div class="grid-container">
+            <div class="grid-card">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/645ea1c4fce09061884bd21c/0x0.jpg?format=jpg&crop=2774,2772,x925,y0,safe&height=416&width=416&fit=bounds" width="200" height="150">
+                <h3>Card 1</h3>
+                <p>Cristiano ronaldo is my favourite footballer</p>
+            </div>
+            <div class="grid-card">
+                <img src="https://res.cloudinary.com/pgatour-prod/w_854,h_480,c_fill,f_auto,q_auto/pgatour/news/editorial/2024/04/09/tiger-masters-column.jpg" width="200" height="150">
+                <h3>Card 2</h3>
+                <p>Tiger woods is my favourite golf player</p>
+            </div>
+            <div class="grid-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMAyTEKPlm8q9SZBioYKN3v3Oj4-xvZc_g92NU_cWrq7s1ycsN" width="200" height="150">
+                <h3>Card 3</h3>
+                <p>Roger federe is my favourite tennis player</p>
+            </div>
+            <div class="grid-card">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR7kpJacUT0a8y1moWI71fAHt0SvLve0BTHECa_8p-mGUAE5R4ygcGgtTCd_QqtIToLn5u2nbiA-eM-UjWiZQSt7QpZ9fJwPb73mEuoYQ" width="200" height="150">
+                <h3>Card 4</h3>
+                <p>Muhammed ali is my favourite boxer</p>
+            </div>
+            <div class="grid-card">
+                <img src="https://images.icc-cricket.com/image/upload/t_ratio21_9-size60-webp/prd/ukyr21q5lakmcdsmwmve" width="200" height="150">
+                <h3>Card 5</h3>
+                <p>Glenn Mcgrath is my favourite fast bowler</p>
+            </div>
+            <div class="grid-card">
+                <div class="badge">NEW</div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg" width="200" height="150">
+
+                
+    </body>
+</html>
