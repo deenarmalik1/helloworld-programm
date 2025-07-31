@@ -1,0 +1,436 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    max-width: 800px;
+    margin: auto;
+}
+.topgreen{
+    background-color: rgb(27, 143, 27);
+    height: 4px;
+    width:99%;
+}
+.myimage{
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    left: 220px;
+}
+.myinput{
+    position:relative;
+    left:240px;
+    bottom: 84px;
+    right:200px;
+    width: 420px;
+    height: 35px;
+    
+    
+    
+}
+.delivery{
+    height: 20px;
+    width: 150px;
+    background-color: rgb(185, 193, 201);
+    color: green;
+    position:relative;
+    left: 760px;
+    bottom:114px;
+    text-align: center;
+}
+.login{
+    height: 20px;
+    width:150px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position:relative;
+    left:950px;
+    text-align: center;
+    bottom:135px;
+    right: 200px;
+
+
+}
+.logo{
+    position: relative;
+    left: 1150px;
+    bottom: 160px;
+    cursor: pointer;
+}
+.my-form{
+    height: 20px;
+    background-color: rgb(27, 143, 27);
+    width: 150px;
+    
+    text-align: center;
+    position: relative;
+    bottom: 140px;
+    left: 220px;
+
+    
+}
+.div1{
+    width: 140px;
+    position: relative;
+    left: 440px;
+    bottom:160px;
+    cursor: pointer;
+}
+.div1:hover{
+    color:maroon;
+}
+.div2{
+    width: 80px;
+    position: relative;
+    left: 600px;
+    bottom: 175px;
+    cursor: pointer;
+
+}
+.div2:hover{
+    color:maroon;
+}
+.div3{
+    width: 80px;
+    position: relative;
+    left: 680px;
+    bottom: 194px;
+    cursor: pointer;
+
+}
+.div3:hover{
+    color: maroon;
+}
+.div4{
+    width: 100px;
+    position: relative;
+    left: 800px;
+    bottom: 214px;
+    cursor: pointer;
+}
+.div4:hover{
+    color:maroon;
+}
+.div5{
+    width: 50px;
+    position:relative;
+    left: 950px;
+    bottom:230px;
+    cursor: pointer;
+}
+.div5:hover{
+    color:maroon;
+}
+.container{
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.product-grid{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin:0 auto;
+    gap: 5px;
+    position: relative;
+    bottom: 200px;
+    
+}
+.h2{
+    position: relative;
+    bottom:200px;
+    left: 300px;
+}
+.product-card{
+    position: relative;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.discount-tag{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+.product-card img{
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.product-card h3{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.price{
+    font-weight: bold;
+    color: #eb0101
+}
+.original-price{
+    text-decoration: line-through;
+    color:rgb(226, 226, 104);
+    font-size: 14px;
+}
+.add-to-cart{
+    background-color: #a00c0c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    background-color: black;
+}
+.container2{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.product-list{
+    background-color: saddlebrown;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 200px;
+}
+.products{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    gap: 5px;
+}
+.product img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.add-btn{
+    background-color: #a00c0c;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: black;
+}
+.main-content{
+    padding: 20px;
+
+}
+.top-offers h2, .fruits-veggies h2{
+    margin-top: 0;
+}
+.offers-grid, .products-grid{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    gap: 5px;
+}
+.products-card{
+    max-width: 800px;
+    position: relative;
+    bottom: 200px;
+}
+.offer-card{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: justify;
+    cursor: pointer;
+    position: relative;
+    bottom: 200px;
+    background: linear-gradient(to bottom,rgb(241, 76, 76) 50%, white 50%);
+    font-weight: 900;
+}
+p{
+    text-decoration: solid;
+    font-size: large;
+    font-weight: bolder;
+}
+h2{
+    position: relative;
+    bottom: 200px;
+}
+h4{
+    position:relative;
+    bottom: 180px;
+    text-align: center;
+}
+.para{
+    position: relative;
+    bottom: 180px;
+    font-size: smaller;
+    text-align: center;
+}
+.para2{
+    position: relative;
+    bottom: 180px;
+    font-size: smaller;
+    text-align: center;
+}
+.para3{
+    position:relative;
+    bottom: 180px;
+    font-size: smaller;
+    text-align: center;
+}
+.para4{
+    position: relative;
+    bottom: 180px;
+    font-size: smaller;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 160px;
+    height: 500px;
+    
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-section{
+    flex:1;
+    margin:0 20px;
+}
+.footer-section h4{
+    margin-bottom: 10px;
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    right: 180px;
+    cursor: pointer;
+}
+.footer-section ul li{
+    margin-bottom: 5px;
+}
+.logo-section img{
+    position: relative;
+    top: 50px;
+    left:150px;
+    cursor: pointer;
+}
+.footerpara{
+    position: relative;
+    top: 200px;
+    right:365px;
+}
+.footer-section2 ul{
+    list-style: none;
+    padding: 0;
+    position:relative;
+    top: 30px;
+    right: 50px;
+    cursor: pointer;
+}
+.footer-section2 ul li{
+    margin-bottom: 5px;
+}
+@media (max-width: 768px){
+    header{
+        padding: 10px;
+    }
+    header img{
+        width: 60px;
+        height: 80px;
+        margin: 10px auto;
+    }
+    .myinput{
+        width: 200px;
+        height: 25px;
+        padding: 5px;
+        font-size: 14px;
+        margin: 10px auto;
+    }
+    .delivery, .login{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .logo img{
+        width: 30px;
+        height: 20px;
+        margin: 10px auto;
+    }
+    main{
+        padding: 10px;
+
+    }
+    .container, .container2{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .product-grid, .products-grid{
+        grid-template-columns: repeat(2, ifr);
+        gap: 10px;
+    }
+    .product-card, .products-card{
+        padding: 10px;
+
+    }
+    .product-card img, .products-card img{
+        height: 100px;
+    }
+    .footer{
+        padding: 10px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-section{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+    
+    
+    
+    
+    
+
+
+    
+    
+
+
+    
+    
+    
+
+
+
