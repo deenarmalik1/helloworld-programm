@@ -1,10 +1,8 @@
 *{
     margin:0;
+    box-sizing: border-box;
 }
-.body{
-    max-width: 800px;
-    margin: auto;
-}
+
 .topgreen{
     background-color: rgb(27, 143, 27);
     height: 4px;
@@ -24,13 +22,11 @@
     width: 420px;
     height: 35px;
     
-    
-    
 }
 .delivery{
     height: 20px;
     width: 150px;
-    background-color: rgb(185, 193, 201);
+    background-color: rgb(127, 160, 192);
     color: green;
     position:relative;
     left: 760px;
@@ -50,12 +46,6 @@
     right: 200px;
 
 
-}
-.logo{
-    position: relative;
-    left: 1150px;
-    bottom: 160px;
-    cursor: pointer;
 }
 .my-form{
     height: 20px;

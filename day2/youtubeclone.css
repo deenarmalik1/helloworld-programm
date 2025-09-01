@@ -1,0 +1,274 @@
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 135px;
+    width: 100%;
+    z-index: 1000;
+}
+span{
+    background-color: rgb(235, 235, 235);
+    font-weight: bold;
+    margin-left: 30px;
+    border-radius: 180px;
+    padding: 8px;
+    position: relative;
+    bottom: 25px;
+    left: 40px;
+    cursor: pointer;
+    
+
+}
+span:hover{
+    background-color: rgb(209, 209, 209);
+}
+.nav-menu{
+    margin-top: 20px;}
+
+.search{
+    width: 550px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(180, 175, 175);
+    margin-left: 320px;
+    position: relative;
+    bottom: 50px;
+    
+}
+.search:focus{
+    border: none;
+    outline: 1px solid blue;
+}
+.my-search-bar{
+    transform: scale(1.4);
+    position: relative;
+    right: 90px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.search-button{
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    border-radius: 15px;
+    height: 25px;
+    border: 1px solid rgb(180, 175, 175);
+    cursor: pointer;
+    
+}
+.search-button:hover{
+    background-color: rgb(209, 209, 209);
+}
+.my-microphone{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;
+    transform: scale(1.2);
+    
+}
+.first{
+    background-color: black;
+    color: white;
+}
+.logo{
+    margin-left: 60px;
+}
+.create{
+    margin-left: 1000px;
+    position: relative;
+    bottom: 130px;
+} 
+.my-bell-icon{
+    margin-left: 75px;
+    position: relative;
+    bottom: 130px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    
+    
+    
+}
+.my-bell-icon:hover{
+    background-color: rgb(180, 175, 175);
+}
+.mail{
+    display: block;
+    background-color: rgb(12, 59, 12);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1173px;
+    position: relative;
+    bottom: 163px;
+   
+}
+
+
+
+ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+    
+}
+ul{
+    position: relative;
+    bottom: 105px;
+    right: 20px;
+}
+.home{
+    text-align: center;
+    width: 60px;
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+}
+.home:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.6s;
+}
+.video{
+    
+    width: 75px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    right: 21px;
+    
+}
+.video:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.6s;
+}
+.bell{
+    text-align: center;
+    width: 60px;
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+    bottom: 5px;
+}
+.bell:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.6s;
+
+}
+.you{
+    text-align: center;
+    width: 60px;
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+    bottom: 5px;
+}
+.you:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.6s;
+}
+.download{
+    text-align: center;
+    width: 66px;
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+    bottom: 5px;
+}
+.download:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.6s;
+}
+.home,.video,.bell,.you,.download p{
+    font-size: smaller;
+}
+iframe{
+    border-radius: 40px;
+    cursor: pointer;
+} 
+.video-container{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    position: relative;
+    top: 160px;
+    
+    
+} 
+.title{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.undertitle{
+    font-size: small;
+    color: rgb(128, 126, 126);
+    margin-left: 12px;
+}
+.video1:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 40px;
+    cursor: pointer;
+}
+.video2:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 40px;
+    cursor:pointer;
+}
+.video3:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 40px;
+    cursor: pointer;
+}
+.pic{
+    margin-top: 170px;
+    position: relative;
+    left: 100px;
+}
+.shorts-container{
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+}
+.video-container2{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}
+.video-container3{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}
+.video-container4{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+}

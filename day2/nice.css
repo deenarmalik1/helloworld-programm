@@ -1,0 +1,51 @@
+h1{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+h3{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(178, 140, 216);
+    margin-bottom: 20px;
+}
+.div1:hover{
+    background-color: aqua;
+    transform: translate(50px,30px);
+    transition:  6s ease-in-out ;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 182, 117);
+    margin-bottom: 20px;
+}
+.div2:hover{
+    transform: scale(1.2);
+    transition: 6s ease-out 2s;
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(89, 160, 136);
+    margin-bottom: 20px;
+}
+.div3:hover{
+    transform: rotate(45deg);
+    transition: 5s ease-in;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(76, 104, 47);
+    margin-bottom: 20px;
+}
+.div4:hover{
+    transform: skew(45deg,20deg);
+    transition: 5s ease-in;
+}

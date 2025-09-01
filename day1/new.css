@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.img{
+    border-radius: 50%;
+    border: 1px solid;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+.container{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    justify-content: center;
+}
+.button1{
+    background-color: red;
+    color: white;
+}
+.button2{
+    background-color: violet;
+    color:black;
+}
+.button1:hover{
+    background-color: blue;
+    color: black;
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+}

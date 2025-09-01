@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid;
+    align-items: center;
+    
+}
+.container img{
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.button-container{
+    display: flex;
+    gap: 20px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.Hire{
+    background-color: maroon;
+    color: white;
+}
+.Hire:hover{
+    background-color: black;
+    transition: 0.6s;
+}
+.Download{
+    background-color: maroon;
+    color: white;
+}
+.Download:hover{
+    background-color: black;
+    transition: 0.6s;
+}
+@media(max-width: 600px){
+    .container{
+        padding: 20px;
+    }
+    .button-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        padding: 1em;
+        
+        
+    }
+
+
+
+}
+    

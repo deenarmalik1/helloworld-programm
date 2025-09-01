@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.Container{
+    background-color: rgb(224, 163, 103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Container img{
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 30vh;
+    width: 12vw;
+    margin-bottom: 6px;
+}
+h2{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 6px;
+}
+.Container p{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-bottom: 6px;
+}
+.button{
+    display: flex;
+    gap: 5px;
+}
+button{
+    width: 12vw;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: none;
+}
+.Hire{
+    background-color: crimson;
+    color: white;
+}
+.Download{
+    background-color: teal;
+    color: black;
+}
+.Hire:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.Download:hover{
+    background-color: maroon;
+    color: white;
+    transition: 0.6s;
+}
+.first{
+    background-color: rgb(21, 131, 131);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.prof{
+    margin-left: 65px;
+}
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fieldset{
+    background-color: rgb(30, 179, 95);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    
+    }
+    

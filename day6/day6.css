@@ -4,10 +4,8 @@
     margin: 0;
     padding: 0;
 }
-.body{
-    max-width: 800px;
-    margin: auto;
-}
+
+
 .topgreen{
     background-color: rgb(27, 143, 27);
     height: 4px;
