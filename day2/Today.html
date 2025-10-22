@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="J1" class="w-full bg-blue-300 p-6 text-lg text-black text-center text-bold">India is My Country</div>
+    <div class="flex justify-center items-center">
+    <button id="button" class="p-4 rounded-lg bg-lime-400 text-md text-bold mt-3 ">Read More</button>
+    </div>
+    <div class="flex justify-center items-center">
+    <input type="text" id="name" class="border border-blue-800 p-3 rounded-lg mt-3">
+    </div>
+    <script>
+        let J1=document.getElementById('J1')
+        let J2=document.getElementById('button')
+        let J3=document.getElementById('name')
+
+        J2.addEventListener('click', ()=>{
+            J1.classList.toggle('bg-green-600')
+        })
+        J3.addEventListener('focus', ()=>{
+            J2.classList.toggle('bg-red-500')
+        })
+
+    </script>
+</body>
+</html>

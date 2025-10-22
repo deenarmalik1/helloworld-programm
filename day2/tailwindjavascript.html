@@ -106,3 +106,70 @@
     <p>&copy;2025 Tailwind Css</p>
    </footer>
 
+   <script>
+
+    let text1 = document.getElementById('h1')
+    text1.style.fontSize = "36px"
+
+    let text2 = document.getElementById('h2')
+    text2.style.fontSize = '36px'
+
+    let text3 = document.getElementById('h3')
+    text3.style.fontSize = "36px"
+
+    let text4 = document.getElementById('h4')
+    text4.style.fontSize = "36px"
+
+    let img1 = document.getElementById('img1')
+    img1.classList.add('h-44', 'w-64')
+
+    let img2 = document.getElementById('img2')
+    img2.classList.add('h-44', 'w-64')
+
+    let img3 = document.getElementById('img3')
+    img3.classList.add('h-44', 'w-64')
+
+    let img4 = document.getElementById('img4')
+    img4.classList.add('h-44', 'w-64')
+
+    let btn1 = document.getElementById('button1')
+    btn1.classList.add('bg-green-500')
+
+    let btn2 = document.getElementById('button2')
+    btn2.classList.add('bg-pink-400')
+
+    let btn3 = document.getElementById('button3')
+    btn3.classList.add('bg-lime-500')
+
+    let btn4 = document.getElementById('button4')
+    btn4.classList.add('bg-orange-500')
+
+    const body = document.body
+    const user = document.getElementById('user')
+    const modal = document.getElementById('modal')
+
+    user.addEventListener('click', ()=>{
+        modal.classList.remove('hidden')
+        body.classList.add('overflow-hidden')
+    })
+
+    const button = document.getElementById('btn')
+    btn.addEventListener('click', ()=>{
+        modal.classList.add('hidden')
+        body.classList.remove('overflow-hidden')
+    })
+
+    
+
+
+
+
+
+
+
+
+   </script>
+
+
+</body>
+</html>
